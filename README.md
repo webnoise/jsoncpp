@@ -212,3 +212,10 @@ License
 -------
 See the `LICENSE` file for details. In summary, JsonCpp is licensed under the
 MIT license, or public domain if desired and recognized in your jurisdiction.
+
+x-focus
+-------
+cmake -DARCHIVE_INSTALL_DIR=${OUTDIR}/jsoncpp/libs -DINCLUDE_INSTALL_DIR=${OUTDIR}/jsoncpp/include -DJSONCPP_WITH_PKGCONFIG_SUPPORT=OFF -DJSONCPP_WITH_POST_BUILD_UNITTEST=OFF -DJSONCPP_WITH_CMAKE_PACKAGE=OFF
+
+
+

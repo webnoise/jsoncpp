@@ -69,7 +69,7 @@ def amalgamate_source(source_top_dir=None,
     header.add_file("include/json/version.h")
     header.add_file("include/json/config.h")
     header.add_file("include/json/forwards.h")
-    header.add_file("include/json/features.h")
+    header.add_file("include/json/jsonfeatures.h")
     header.add_file("include/json/value.h")
     header.add_file("include/json/reader.h")
     header.add_file("include/json/writer.h")

@@ -19,7 +19,7 @@ class StyledWriter;
 // reader.h
 class Reader;
 
-// features.h
+// jsonfeatures.h
 class Features;
 
 // value.h
